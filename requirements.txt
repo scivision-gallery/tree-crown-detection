@@ -1,5 +1,6 @@
 intake
 git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
+rasterio
 hvplot
 exifread
 matplotlib
