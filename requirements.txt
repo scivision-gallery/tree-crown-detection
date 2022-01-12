@@ -1,14 +1,2 @@
-intake
-git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
-rasterio
-hvplot
-exifread
-matplotlib
-fsspec
-pycurl
-Pillow
-opencv-python
-requests
-aiohttp
 scivision
 git+https://github.com/ots22/intake-xarray@feature/exif
