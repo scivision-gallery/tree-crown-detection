@@ -5,6 +5,7 @@ dependencies:
   - python=3.8
   - matplotlib
   - urllib3
+  - opencv
   - pytorch==1.8.0
   - torchvision==0.9.0
   - pip
