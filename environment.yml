@@ -14,5 +14,5 @@ dependencies:
   - pip
   - pip:
     - scivision
-#    - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
+    - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
     - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
