@@ -1,3 +1,4 @@
+name: scivision-forest-notebooks
 channels:
   - conda-forge
   - pytorch
@@ -8,7 +9,8 @@ dependencies:
   - pytorch==1.8.0
   - torchvision==0.9.0
   - rasterio
-#  - opencv
+  - tqdm
+  - opencv
   - pip
   - pip:
     - scivision
