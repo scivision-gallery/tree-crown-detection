@@ -1,0 +1,34 @@
+name: ci
+
+on: [push]
+
+jobs:
+  build:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ["ubuntu-latest"]
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up conda and dependencies
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          activate-environment: repo
+          environment-file: environment.yml
+      # Install extra packages
+      - name: Install jupyter dependencies
+        run: |
+          conda install pip
+          pip install jinja2==3.0.2
+          pip install jupyter
+          pip install nbconvert
+      # Render the notebook
+      - name: Render the notebook
+        run: |
+          jupyter nbconvert --to notebook --ExecutePreprocessor.kernel_name=python3 --inplace --execute treecrown-detection_detectreeRGB.ipynb
