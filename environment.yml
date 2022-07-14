@@ -1,4 +1,4 @@
-name: tree-crown-detection
+name: treecrown-detection_detectreeRGB
 channels:
   - conda-forge
   - pytorch
