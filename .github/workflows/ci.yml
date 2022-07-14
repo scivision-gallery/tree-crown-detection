@@ -1,3 +1,4 @@
+# The CI action below was authored by the Environmental Data Science community, Alejandro Coca-Castro and Anne Fouilloux, as part of the community executable notebook repository templates for conda environments, https://github.com/Environmental-DS-Book/template-executable-notebook
 name: ci
 
 on: [push]
