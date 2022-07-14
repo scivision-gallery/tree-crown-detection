@@ -3,20 +3,20 @@
 </div>
 
 <p align="center">
-    <a href="https://github.com/scivision-gallery/tree-crown-detection/blob/main/LICENSE">
+    <a href="https://github.com/acocac/tree-crown-detection/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://mybinder.org/v2/gh/scivision-gallery/tree-crown-detection.git/main?labpath=tree-crown-detection.ipynb">
+    <a href="https://mybinder.org/v2/gh/acocac/tree-crown-detection.git/main?labpath=tree-crown-detection.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
-    <a href="https://github.com/scivision-gallery/tree-crown-detection/workflows/ci/badge.svg">
-        <img alt="Continuous integration badge" src="https://github.com/scivision-gallery/tree-crown-detection/workflows/ci/badge.svg">
+    <a href="https://github.com/acocac/tree-crown-detection/workflows/ci/badge.svg">
+        <img alt="Continuous integration badge" src="https://github.com/acocac/tree-crown-detection/workflows/ci/badge.svg">
     </a>
     <br/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/scivision-gallery/tree-crown-detection/blob/main/figs/detectreeRGB_prediction_example.png?raw=true" 
+  <img src="https://github.com/acocac/tree-crown-detection/blob/main/figs/detectreeRGB_prediction_example.png?raw=true" 
         alt="Tree crown delineation in a sample drone RGB image" width="90%" align="center">
 </p>
 
