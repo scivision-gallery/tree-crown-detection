@@ -32,4 +32,4 @@ jobs:
       # Render the notebook
       - name: Render the notebook
         run: |
-          jupyter nbconvert --to notebook --ExecutePreprocessor.kernel_name=python3 --inplace --execute treecrown-detection_detectreeRGB.ipynb
+          jupyter nbconvert --to notebook --ExecutePreprocessor.kernel_name=python3 --inplace --execute tree-crown-detection.ipynb
