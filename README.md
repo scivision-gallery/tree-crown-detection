@@ -47,6 +47,8 @@ You may also download the notebook from GitHub to run it locally:
 * Activate the installed environment, `conda activate treecrown-detection_detectreeRGB`
 * Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 
+A full conda environment can be found in environment_full.yml. If you are having issues creating the conda environment, this file contains details of all the packages and their versions which are required to run these notebooks, including secondary and tertiary dependencies.
+
 ## Acknowledgment 
 This notebook was supported by the outcomes of Sebastian Hickman's [AI4ER MRes project](https://ai4er-cdt.esc.cam.ac.uk/StaffDirectory/students-all/2020-students). The scivision team thanks the individuals and institutions involved in the project, in particular Sebastian for providing one of the trained models and sample images used in this notebook.
 
