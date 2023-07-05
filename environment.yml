@@ -4,16 +4,17 @@ channels:
   - pytorch
 dependencies:
   - python=3.8
+  - ipykernel
   - matplotlib
-  - urllib3
+  - pip
+  - pycurl
   - pytorch==1.8.0
+  - rasterio
   - torchvision==0.9.0
   - tqdm
-  - rasterio 
-  - pycurl 
-  - ipykernel
-  - pip
+  - urllib3
   - pip:
+    - rioxarray 
     - git+https://github.com/alan-turing-institute/scivision.git@main
     - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6
     - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
