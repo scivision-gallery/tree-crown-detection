@@ -260,4 +260,4 @@ dependencies:
       - zarr==2.15.0
       - scivision==0.7.0
       - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6
-      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
+      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git@v2021.02.06.1
