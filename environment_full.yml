@@ -258,6 +258,6 @@ dependencies:
       - yacs==0.1.8
       - yarl==1.9.2
       - zarr==2.15.0
-      - git+https://github.com/alan-turing-institute/scivision.git@main
+      - scivision==0.7.0
       - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6
-      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
+      - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git@v2021.02.06.1
