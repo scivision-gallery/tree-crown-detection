@@ -15,6 +15,6 @@ dependencies:
   - urllib3
   - pip:
     - rioxarray 
-    - git+https://github.com/alan-turing-institute/scivision.git@main
+    - scivision==0.7.0
     - detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6
     - git+https://github.com/ESM-VFC/intake_zenodo_fetcher.git
